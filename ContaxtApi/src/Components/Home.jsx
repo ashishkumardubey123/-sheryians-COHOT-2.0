@@ -18,13 +18,8 @@ const Home = () => {
               Premium clothing crafted for comfort, confidence, and everyday style.
             </p>
             <div className="mt-8 flex gap-4 justify-center">
-<<<<<<< HEAD
                <Link className=" text-black font-semibold transition"  to="/product">
                      <button className="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden text-sm font-medium text-heading rounded-base group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-=======
-               <Link className="px-6 py-3 bg-white text-black font-semibold hover:bg-gray-200 transition"  to="/product">
-                     <button >
->>>>>>> 03ac44cc47ce7410eb21d34f8bc84500b960d837
                 Shop Collection
               </button>
                
