@@ -58,7 +58,7 @@ body {
   height: 80px;
 }
 
-.form-section button {
+#addBtn {
   margin-top: 15px;
   width: 100%;
   padding: 12px;
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
 }
 
-.form-section button:hover {
+ #addBtn:hover {
   background: #5563d6;
 }
 
