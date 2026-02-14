@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Todo Card UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Left Form -->
+    <div class="form-section">
+      <h2>Add Task</h2>
+
+      <form   id="taskForm">
+        <label >User Name</label>
+        <input type="text" id="username"  placeholder="Enter your name" />
+
+        <label>Task</label>
+        <textarea  id="taskInput"  value="task" placeholder="Enter task"></textarea>
+
+        <input  id="addBtn" type="submit"/>
+      </form>
+    </div>
+
+    <!-- Right Cards -->
+    <div class="cards-section">
+      <h2>Tasks</h2>
+
+      <!-- Card -->
+      <div class="task-card">
+        <div class="card-header">
+          <h3 id="title">Ashish</h3>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+        <p id="data">Design Todo App UI</p> 
+        <span id="date" >14 Jan 2026</span>
+      </div>
+
+      <!-- Card -->
+    
+
+    </div>
+
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
